@@ -120,7 +120,8 @@ function get_word(array) {
 
 function get_adlib() {
     string = `${get_word(celebrities)} ${get_word(verbs)} a ${get_word(adjectives)} ${get_word(characters)} at ${get_word(places)}.`
-    return string
+    document.getElementById("adlib").innerHTML = string
+    // return string
 }
 
 
